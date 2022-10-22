@@ -1,0 +1,35 @@
+[
+   {
+      "name":"dingusprimecontentpack_data",
+      "displayName":"DingusPrime-ContentPack Datapack",
+	  "type":"datapack",
+      "versions":[
+         {
+            "version":"1.0.0",
+            "URL":"https://github.com/Avalon-MC/DingusPrime-ContentPack/blob/main/repo/dingusprimecontentpack_data/1.0.0.zip?raw=true"
+         }
+      ]
+   },
+   {
+      "name":"dingusprimecontentpack_scripts",
+      "displayName":"DingusPrime-ContentPack KubeJS Scripts",
+	  "type":"kubejs",
+      "versions":[
+         {
+            "version":"1.0.0",
+            "URL":"https://github.com/Avalon-MC/DingusPrime-ContentPack/blob/main/repo/dingusprimecontentpack_scripts/1.0.0.zip?raw=true"
+         }
+      ]
+   },
+   {
+      "name":"dingusprimecontentpack_resouces",
+      "displayName":"DingusPrime-ContentPack Resource Pack",
+	  "type":"resourcepack",
+      "versions":[
+         {
+            "version":"1.0.0",
+            "URL":"https://github.com/Avalon-MC/DingusPrime-ContentPack/blob/main/repo/dingusprimecontentpack_resouces/1.0.0.zip?raw=true"
+         }
+      ]
+   }
+]
