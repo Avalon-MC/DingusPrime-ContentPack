@@ -2,7 +2,7 @@ DingusPrimeServer
 
 1) Don't take/kill/break/destroy/occupy/alter anything that you know for a fact belongs to another player or a town you're not part of.
 
-2) Do not tell Peter about ANYTHING related to the modpack, server, glitches, oddities, etc. Such reports should be made exclusively to NerdiCorgi.
+2) Do not tell Peter/Pacas0 about ANYTHING related to the modpack, server, glitches, oddities, etc. Such reports should be made exclusively to NerdiCorgi.
 
 3) Any factories/machines you make should stop when you leave the area or log off. If I have to implement an AFK kick, I will - but I won't be happy about it.
 
