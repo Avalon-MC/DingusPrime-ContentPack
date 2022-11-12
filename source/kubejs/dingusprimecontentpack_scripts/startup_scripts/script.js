@@ -1,9 +1,4 @@
 
-onEvent('item.registry', event => {
-	// Register new items here
-	event.create('petercashel_cashelcoin').displayName('CashelCoin').tooltip("A rare and exceptionally valueless coin. Destroying it would make someone sad though.")
-})
-
 onEvent('block.registry', event => {
 	// Register new blocks here
 	event.create('petercashel_cashelcoinblock').material('wood').hardness(1.0).displayName('CashelCoin Block')
@@ -21,4 +16,27 @@ onEvent('block.registry', event => {
 	event.create('tombstone_5_top').material('stone').hardness(1.0).displayName('Decorative Tombstone 5 Top').defaultCutout()
 	event.create('tombstone_7_top').material('stone').hardness(1.0).displayName('Decorative Tombstone 7 Top').defaultCutout()
 	
+})
+
+
+onEvent('item.registry', event => {
+	// Register new items here
+	event.create('petercashel_cashelcoin').displayName('CashelCoin').tooltip("A rare and exceptionally valueless coin. Destroying it would make someone sad though.")
+	
+	
+	//event.create('hamazon_flint', 'gameboy').displayName('hamazon FLINT').tooltip("A rare and exceptionally... wait this has batteries in it...")
+	//event.create('hamazon_flint_red', 'gameboy').displayName('Red hamazon FLINT').tooltip("A rare and exceptionally... wait this has batteries in it...").guiBG('red')
+	//event.create('hamazon_flint_purple', 'gameboy').displayName('Purple hamazon FLINT').tooltip("A rare and exceptionally... wait this has batteries in it...").guiBG('purple')
+
+	//event.create('testgame', 'gbcart').displayName('TestGame').gameID('testgame').parentModel('kubejs:item/gbcart')
+	//event.create('tetrisdx', 'gbcart').displayName('Tetris DX').gameID('tetrisdx')
+	//event.create('pkmonred', 'gbcart').displayName('Pokemon Red').gameID('pkmonred').parentModel('kubejs:item/gbcart')
+	
+})
+
+onEvent('rom_registry', event => {
+	// Register new Roms here
+	//event.create('testgame').romPath('kubejs:rom/testgame.gb')
+	//event.create('tetrisdx').romPath('kubejs:rom/tetrisdx.gbc')
+	//event.create('pkmonred').romPath('kubejs:rom/pkmonred.gbc')
 })
