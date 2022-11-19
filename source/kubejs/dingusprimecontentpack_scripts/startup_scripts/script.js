@@ -3,9 +3,9 @@ onEvent('block.registry', event => {
 	// Register new blocks here
 	event.create('petercashel_cashelcoinblock').material('wood').hardness(1.0).displayName('CashelCoin Block')
 	
-	
+
+	//TODO Convert to customcardinal by creating blockstates for them and renaming
 	//  SAVED ID ->  BLOCK NAME 			 MAT                                                         
-	event.create('tombstone_1').material('stone').hardness(1.0).displayName('Decorative Tombstone 1').defaultCutout().box(2, 0, 2, 14, 16, 6, true)
 	event.create('tombstone_2').material('stone').hardness(1.0).displayName('Decorative Tombstone 2').defaultCutout().box(2, 0, 2, 14, 16, 6, true)
 	event.create('tombstone_3').material('stone').hardness(1.0).displayName('Decorative Tombstone 3').defaultCutout().box(2, 0, 2, 14, 16, 6, true)
 	event.create('tombstone_4_bottom').material('stone').hardness(1.0).displayName('Decorative Tombstone 4').defaultCutout().box(1, 0, 1, 15, 4, 15, true).box(4, 0, 4, 12, 16, 12, true)
@@ -17,7 +17,8 @@ onEvent('block.registry', event => {
 	event.create('tombstone_7_top').material('stone').hardness(1.0).displayName('Decorative Tombstone 7 Top').defaultCutout().box(2, 0, 5, 14, 9, 11, true)
 	
 	//customcardinal
-	event.create('tombstone_1_new', 'customcardinal').material('stone').hardness(1.0).displayName('Decorative Tombstone 1').defaultCutout().box(2, 0, 10, 14, 16, 14, true)
+	event.create('tombstone_1', 'customcardinal').material('stone').hardness(1.0).displayName('Decorative Tombstone 1').defaultCutout().box(2, 0, 10, 14, 16, 14, true)	
+
 })
 
 
@@ -47,8 +48,15 @@ onEvent('rom_registry', event => {
 
 onEvent('shoptrade_registry', event => {
 	// Register new Shop Trades here
-	event.create('tombstone_1').shopType('furniture').result('kubejs:tombstone_1').shopResultType('block').count(3).cost(5)
-	event.create('tombstone_2').shopType('furniture').result('kubejs:tombstone_2').shopResultType('block').count(2).cost(2)
-	event.create('tombstone_3').shopType('furniture').result('kubejs:tombstone_3').shopResultType('block').count(3).cost(6)
+	event.create('tombstone_1').shopType('furniture').result('kubejs:tombstone_1').shopResultType('block').count(1).cost(5)
+	event.create('tombstone_2').shopType('furniture').result('kubejs:tombstone_2').shopResultType('block').count(1).cost(5)
+	event.create('tombstone_3').shopType('furniture').result('kubejs:tombstone_3').shopResultType('block').count(1).cost(5)
+	event.create('tombstone_4b').shopType('furniture').result('kubejs:tombstone_4_bottom').shopResultType('block').count(1).cost(5)
+	event.create('tombstone_5b').shopType('furniture').result('kubejs:tombstone_5_bottom').shopResultType('block').count(1).cost(5)
+	event.create('tombstone_6').shopType('furniture').result('kubejs:tombstone_6').shopResultType('block').count(1).cost(5)
+	event.create('tombstone_7b').shopType('furniture').result('kubejs:tombstone_7_bottom').shopResultType('block').count(1).cost(5)
+	event.create('tombstone_4t').shopType('furniture').result('kubejs:tombstone_4_top').shopResultType('block').count(1).cost(5)
+	event.create('tombstone_5t').shopType('furniture').result('kubejs:tombstone_5_top').shopResultType('block').count(1).cost(5)
+	event.create('tombstone_7t').shopType('furniture').result('kubejs:tombstone_7_top').shopResultType('block').count(1).cost(5)
 	event.create('cobblestone').shopType('general').result('cobblestone').shopResultType('block').count(64).cost(1).always()
 })
