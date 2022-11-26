@@ -1,4 +1,9 @@
 onEvent('recipes', event => {
+	
+	//Wipe all of a mods recipes
+	//event.remove({mod: 'quartzchests'}) // Remove all recipes from Quartz Chests mod
+	
+	
 	// Change recipes here
 	event.shapeless("9x kubejs:petercashel_cashelcoin", ["kubejs:petercashel_cashelcoinblock"])
 	event.shaped('kubejs:petercashel_cashelcoinblock', [

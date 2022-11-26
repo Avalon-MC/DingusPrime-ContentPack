@@ -18,6 +18,27 @@ onEvent('block.registry', event => {
 	
 	//customcardinal
 	event.create('tombstone_1', 'customcardinal').material('stone').hardness(1.0).displayName('Decorative Tombstone 1').defaultCutout().box(2, 0, 10, 14, 16, 14, true)	
+	
+	
+	//Chair
+	event.create('tombstone_1_sit', 'chair').material('stone').hardness(1.0).displayName('Decorative Tombstone 1 chair').defaultCutout().box(2, 0, 10, 14, 16, 14, true).sitOffset(-0.5)
+		
+	
+	//Shelf
+	event.create('gameshelf', 'shelf').material('wood').hardness(1.0).displayName('Cart Shelf').defaultCutout().box(0, 0, 12, 16, 16, 16, true)
+
+	
+	//Cabnet
+	event.create('cabnet', 'cabinet').material('wood').hardness(1.0).displayName('cabnet').defaultCutout().addBox(2, 0, 2, 12, 16, 4, true)
+
+	//Lamp
+	event.create('lamp_base', 'lamp_post').material('wood').hardness(1.0).displayName('lamp_base').addBox(7, 1, 7, 2, 15, 2, false).addBox(1,0,1,14,1,14, false)
+	event.create('lamp_post', 'lamp_post').material('wood').hardness(1.0).displayName('lamp_post').addBox(7, 0, 7, 2, 16, 2, false)
+	event.create('lamp_top', 'lamp_top').material('wood').hardness(1.0).displayName('lamp_top')
+
+
+	//Flatpack
+    event.create('pak_lamptest', 'flatpack').displayName('LampPack').AddItem('lamp_base', 1).AddItem('lamp_post', 2).AddItem('lamp_top', 1)
 
 })
 
