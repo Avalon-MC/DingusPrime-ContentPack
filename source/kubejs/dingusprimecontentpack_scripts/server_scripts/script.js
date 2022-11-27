@@ -1,7 +1,9 @@
 onEvent('recipes', event => {
 	
 	//Wipe all of a mods recipes
-	//event.remove({mod: 'quartzchests'}) // Remove all recipes from Quartz Chests mod
+	event.remove({mod: 'fantasyfurniture'})
+	event.remove({mod: 'reevesfurniture'})
+	
 	
 	
 	// Change recipes here

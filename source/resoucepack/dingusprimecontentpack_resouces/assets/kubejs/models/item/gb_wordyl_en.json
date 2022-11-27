@@ -2,7 +2,7 @@
 	"parent":"kubejs:item/gbcart",
 	"texture_size": [64, 32],
 	"textures": {
-		"0": "kubejs:item/tetrisdx",
-		"particle": "kubejs:item/tetrisdx"
+		"0": "kubejs:item/gb_wordyl_en",
+		"particle": "kubejs:item/gb_wordyl_en"
 	}
 }

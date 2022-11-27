@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:gameboy_grey"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:gameboy_red"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:gameboy_purple"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": {
+          "type": "minecraft:uniform",
+          "min": {
+            "type": "minecraft:constant",
+            "value": 1.4
+          },
+          "max": {
+            "type": "minecraft:constant",
+            "value": 2
+          }
+        },
+        "max": {
+          "type": "minecraft:constant",
+          "value": 2
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:flooder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:gbcorp"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:gb_wordyl_en"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:mud_warriors"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:murdermansion"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:petris"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:tinkercore"
+        }
+      ]
+    }
+  ]
+}
