@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "kubejs:block/tombstone_5_top",
+	  "y": 0 
+    }
+  }
+}

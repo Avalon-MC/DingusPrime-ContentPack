@@ -1,0 +1,8 @@
+{
+	"parent":"kubejs:item/gbcart",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "kubejs:item/mud_warriors",
+		"particle": "kubejs:item/mud_warriors"
+	}
+}

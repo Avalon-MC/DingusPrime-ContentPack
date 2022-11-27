@@ -1,4 +1,11 @@
 onEvent('recipes', event => {
+	
+	//Wipe all of a mods recipes
+	event.remove({mod: 'fantasyfurniture'})
+	event.remove({mod: 'reevesfurniture'})
+	
+	
+	
 	// Change recipes here
 	event.shapeless("9x kubejs:petercashel_cashelcoin", ["kubejs:petercashel_cashelcoinblock"])
 	event.shaped('kubejs:petercashel_cashelcoinblock', [
