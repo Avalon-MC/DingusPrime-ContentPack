@@ -43,5 +43,16 @@
             "URL":"https://github.com/Avalon-MC/DingusPrime-ContentPack/blob/development/repo/dingusprimecontentpack_resouces/1.0.2.zip?raw=true"
          }
       ]
+   },
+   {
+      "name":"dingusprimecontentpack_resouces_server",
+      "displayName":"DingusPrime-ContentPack Server Resource Pack",
+	  "type":"resourcepack",
+      "versions":[
+         {
+            "version":"1.0.0",
+            "URL":"https://s3.us-central-1.wasabisys.com/dingusprimebucket/serverpack/dingusprimeserver.zip"
+         }
+      ]
    }
 ]
