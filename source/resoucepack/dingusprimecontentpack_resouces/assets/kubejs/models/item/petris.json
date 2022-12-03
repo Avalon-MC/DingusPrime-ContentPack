@@ -1,8 +1,9 @@
 {
-	"parent":"kubejs:item/gbcart",
+	"parent":"kubejs:item/gbcart_v2",
 	"texture_size": [64, 32],
 	"textures": {
-		"0": "kubejs:item/petris",
-		"particle": "kubejs:item/petris"
+		"0": "kubejs:item/gbcart3d",
+		"1": "kubejs:item/labels/petris",
+		"particle": "kubejs:item/gbcart3d"
 	}
 }
