@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "block",
 	"textures": {
-		"2": "kubejs:block/oakshelf",
-		"particle": "kubejs:block/oakshelf"
+		"2": "kubejs:block/crimson_shelf",
+		"particle": "kubejs:block/crimson_shelf"
 	},
 	"elements": [
 		{

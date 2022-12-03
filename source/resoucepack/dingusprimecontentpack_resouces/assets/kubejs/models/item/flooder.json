@@ -1,8 +1,9 @@
 {
-	"parent":"kubejs:item/gbcart",
+	"parent":"kubejs:item/gbcart_v2",
 	"texture_size": [64, 32],
 	"textures": {
-		"0": "kubejs:item/flooder",
-		"particle": "kubejs:item/flooder"
+		"0": "kubejs:item/gbcart3d",
+		"1": "kubejs:item/labels/flooder",
+		"particle": "kubejs:item/gbcart3d"
 	}
 }

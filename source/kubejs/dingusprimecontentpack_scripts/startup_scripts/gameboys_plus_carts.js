@@ -3,6 +3,13 @@ onEvent('block.registry', event => {
 
 	//Shelf
 	event.create('oakshelf', 'shelf').material('wood').hardness(1.0).displayName('Oak Shelf').defaultCutout().box(0, 0, 12, 16, 16, 16, true)
+	event.create('warped_shelf', 'shelf').material('wood').hardness(1.0).displayName('Warped Shelf').defaultCutout().box(0, 0, 12, 16, 16, 16, true)
+	event.create('spruce_shelf', 'shelf').material('wood').hardness(1.0).displayName('Spruce Shelf').defaultCutout().box(0, 0, 12, 16, 16, 16, true)
+	event.create('jungle_shelf', 'shelf').material('wood').hardness(1.0).displayName('Jungle Shelf').defaultCutout().box(0, 0, 12, 16, 16, 16, true)
+	event.create('dark_oak_shelf', 'shelf').material('wood').hardness(1.0).displayName('Dark Oak Shelf').defaultCutout().box(0, 0, 12, 16, 16, 16, true)
+	event.create('birch_shelf', 'shelf').material('wood').hardness(1.0).displayName('Birch Shelf').defaultCutout().box(0, 0, 12, 16, 16, 16, true)
+	event.create('acacia_shelf', 'shelf').material('wood').hardness(1.0).displayName('Acacia Shelf').defaultCutout().box(0, 0, 12, 16, 16, 16, true)
+	event.create('crimson_shelf', 'shelf').material('wood').hardness(1.0).displayName('Crimson Shelf').defaultCutout().box(0, 0, 12, 16, 16, 16, true)
 	
 })
 
@@ -45,6 +52,16 @@ onEvent('shoptrade_registry', event => {
 	event.create('tetris').always().count(1).cost(150).shopResultType('item').shopType('custom2').result('kubejs:tetris')
 
 	event.create('oakshelf_game').always().count(1).cost(25).shopResultType('block').shopType('custom2').result('kubejs:oakshelf')
+	event.create('birch_shelf').always().count(1).cost(25).shopResultType('block').shopType('custom2').result('kubejs:birch_shelf')
+	event.create('spruce_shelf').always().count(1).cost(25).shopResultType('block').shopType('custom2').result('kubejs:spruce_shelf')
+	event.create('jungle_shelf').always().count(1).cost(25).shopResultType('block').shopType('custom2').result('kubejs:jungle_shelf')
+	event.create('acacia_shelf').always().count(1).cost(25).shopResultType('block').shopType('custom2').result('kubejs:acacia_shelf')
+	event.create('dark_oak_shelf').always().count(1).cost(25).shopResultType('block').shopType('custom2').result('kubejs:dark_oak_shelf')
+	
+	event.create('warped_shelf').always().count(1).cost(35).shopResultType('block').shopType('custom2').result('kubejs:warped_shelf')
+	event.create('crimson_shelf').always().count(1).cost(35).shopResultType('block').shopType('custom2').result('kubejs:crimson_shelf')
+	
+
 	
 	event.create('gameboy_grey').always().count(1).cost(1000).shopResultType('item').shopType('custom2').result('kubejs:gameboy_grey')
 	event.create('gameboy_red').always().count(1).cost(1000).shopResultType('item').shopType('custom2').result('kubejs:gameboy_red')

@@ -1,19 +1,19 @@
 {
   "variants": {
     "facing=north": {
-      "model": "kubejs:block/oakshelf",
+      "model": "kubejs:block/birch_shelf",
 	  "y": 180
     },
     "facing=east": {
-      "model": "kubejs:block/oakshelf",
+      "model": "kubejs:block/birch_shelf",
       "y": 270
     },
     "facing=south": {
-      "model": "kubejs:block/oakshelf",
+      "model": "kubejs:block/birch_shelf",
       "y": 0
     },
     "facing=west": {
-      "model": "kubejs:block/oakshelf",
+      "model": "kubejs:block/birch_shelf",
       "y": 90
     }
   }
