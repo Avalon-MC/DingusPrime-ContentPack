@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "kubejs:models/block/ornament_green",
+      "model": "kubejs:block/ornament_green",
 	  "y": 0
     }
   }
