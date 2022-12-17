@@ -1,8 +1,20 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "kubejs:block/candy_cane_blue",
 	  "y": 0
+    },
+    "facing=east": {
+      "model": "kubejs:block/candy_cane_blue",
+	  "y": 90
+    },
+    "facing=south": {
+      "model": "kubejs:block/candy_cane_blue",
+	  "y": 180
+    },
+    "facing=west": {
+      "model": "kubejs:block/candy_cane_blue",
+	  "y": 270
     }
   }
 }

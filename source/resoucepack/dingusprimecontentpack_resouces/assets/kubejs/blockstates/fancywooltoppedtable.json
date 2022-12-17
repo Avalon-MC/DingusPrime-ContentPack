@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kubejs:block/fancywooltoppedtable",
+	  "y": 0
+    },
+    "facing=east": {
+      "model": "kubejs:block/fancywooltoppedtable",
+	  "y": 90
+    },
+    "facing=south": {
+      "model": "kubejs:block/fancywooltoppedtable",
+	  "y": 180
+    },
+    "facing=west": {
+      "model": "kubejs:block/fancywooltoppedtable",
+	  "y": 270
+    }
+  }
+}
