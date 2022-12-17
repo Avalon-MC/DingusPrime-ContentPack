@@ -1,0 +1,3 @@
+onEvent('block.registry', event => {
+	event.create('xmasreef', 'customcardinal').displayName('Xmasreef').material('wood').lightLevel(14).defaultCutout().notSolid().noValidSpawns(true).suffocating(false).viewBlocking(false).redstoneConductor(false).box(5, 2, 0, 11, 5, 1, true).box(5, 11, 0, 11, 14, 1, true).box(11, 5, 0, 14, 11, 1, true).box(2, 5, 0, 5, 11, 1, true).box(11, 3, 0, 13, 5, 1, true).box(3, 3, 0, 5, 5, 1, true).box(11, 11, 0, 13, 13, 1, true).box(3, 11, 0, 5, 13, 1, true).box(5, 10, 0, 6, 11, 1, true).box(10, 5, 0, 11, 6, 1, true).box(10, 10, 0, 11, 11, 1, true).box(5, 5, 0, 6, 6, 1, true)
+})
