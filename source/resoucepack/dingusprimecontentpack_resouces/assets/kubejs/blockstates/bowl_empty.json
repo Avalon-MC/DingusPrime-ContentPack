@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "kubejs:models/block/bowl_empty.json",
+      "model": "kubejs:models/block/bowl_empty",
 	  "y": 0
     }
   }

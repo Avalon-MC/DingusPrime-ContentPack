@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "kubejs:models/block/bowl_water.json",
+      "model": "kubejs:models/block/bowl_water",
 	  "y": 0
     }
   }
