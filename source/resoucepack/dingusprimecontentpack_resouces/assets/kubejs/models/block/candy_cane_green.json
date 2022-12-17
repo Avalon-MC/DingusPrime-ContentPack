@@ -1,0 +1,7 @@
+{
+  "parent": "kubejs:block/candy_cane_red",
+  "textures": {
+    "0": "kubejs:models/candy_cane_green",
+    "particle": "kubejs:models/candy_cane_green"
+  }
+}
