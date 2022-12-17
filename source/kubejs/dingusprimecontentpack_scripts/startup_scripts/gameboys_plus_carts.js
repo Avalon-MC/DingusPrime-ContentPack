@@ -36,7 +36,7 @@ onEvent('item.registry', event => {
 	event.create('tinkercore', 'gbcart').displayName('TinkerCore').gameID('tinkercore')
 	
 	//
-	event.create('tetris', 'gbcart').displayName('Tetris').gameID('tetris')
+	event.create('tetris', 'gbcart').displayName('Tetris').gameID('tetris').forceSave()
 	
 })
 

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "kubejs:models/block/bowl_bone.json",
+	  "y": 0
+    }
+  }
+}

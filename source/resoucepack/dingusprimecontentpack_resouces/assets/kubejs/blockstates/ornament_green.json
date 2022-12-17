@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "kubejs:models/block/ornament_green.json",
+	  "y": 0
+    }
+  }
+}

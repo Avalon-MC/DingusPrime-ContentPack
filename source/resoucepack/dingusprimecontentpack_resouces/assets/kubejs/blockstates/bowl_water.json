@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "kubejs:models/block/bowl_water.json",
+	  "y": 0
+    }
+  }
+}
