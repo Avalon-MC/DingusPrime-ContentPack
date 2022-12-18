@@ -24,3 +24,9 @@ onEvent('item.tags', event => {
 	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
 	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
 })
+
+
+onEvent('fluid.tags', event => {
+	event.add('create:bottomless/allow', 'tconstruct:molten_iron');
+	event.add('create:bottomless/allow', 'tconstruct:molten_copper');
+})

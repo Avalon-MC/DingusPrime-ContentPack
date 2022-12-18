@@ -1,0 +1,3 @@
+onEvent('block.registry', event => {
+	event.create('xmasstar', 'customcardinal').displayName('Xmasstar').material('wood').lightLevel(14).defaultCutout().notSolid().noValidSpawns(true).suffocating(false).viewBlocking(false).redstoneConductor(false).box(2, 1, 7.5, 5, 3, 8.5, true).box(3, 3, 7.5, 13, 5, 8.5, true).box(4, 5, 7.5, 12, 7, 8.5, true).box(3, 7, 7.5, 13, 8, 8.5, true).box(2, 8, 7.5, 14, 9, 8.5, true).box(1, 9, 7.5, 15, 11, 8.5, true).box(5, 11, 7.5, 11, 12, 8.5, true).box(6, 12, 7.5, 10, 14, 8.5, true).box(7, 14, 7.5, 9, 15, 8.5, true).box(11, 1, 7.5, 14, 3, 8.5, true).box(5, 2, 7.5, 7, 3, 8.5, true).box(9, 2, 7.5, 11, 3, 8.5, true).box(6.5, 0, 6.5, 9.5, 1, 9.5, true).box(7.65, 1, 7.65, 8.4, 3, 8.4, true)
+})

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "kubejs:block/candy_cane_block_red",
+	  "y": 0
+    }
+  }
+}

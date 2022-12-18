@@ -1,0 +1,7 @@
+{
+  "parent": "kubejs:block/ornament_red",
+  "textures": {
+    "0": "kubejs:models/ornament_blue",
+    "particle": "kubejs:models/ornament_blue"
+  }
+}

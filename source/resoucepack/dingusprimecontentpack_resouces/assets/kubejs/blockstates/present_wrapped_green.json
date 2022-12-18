@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model": "kubejs:block/present_wrapped_green",
+	  "y": 0
+    }
+  }
+}
