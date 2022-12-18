@@ -1,0 +1,7 @@
+{
+  "parent": "kubejs:block/present_wrapped_base",
+  "textures": {
+    "0": "kubejs:models/present_wrapped_blue",
+    "particle": "kubejs:models/present_wrapped_blue"
+  }
+}
