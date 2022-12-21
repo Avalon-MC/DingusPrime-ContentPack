@@ -86,6 +86,6 @@ onEvent('rom_registry', event => {
 	event.create('tinkercore').romPath('kubejs:rom/tinkercore.gb')
 	
 	//	
-	event.create('tetris').romPath('kubejs:rom/tetris.gb')
+	event.create('tetris').romPath('kubejs:rom/tetris.gb').forceSave()
 })
 

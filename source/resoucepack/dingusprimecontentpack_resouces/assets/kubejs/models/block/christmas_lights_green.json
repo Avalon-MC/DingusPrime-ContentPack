@@ -1,0 +1,7 @@
+{
+  "parent": "kubejs:block/christmas_lights_multicolor",
+  "textures": {
+    "0": "kubejs:models/christmas_lights_green",
+    "particle": "kubejs:models/christmas_lights_green"
+  }
+}
